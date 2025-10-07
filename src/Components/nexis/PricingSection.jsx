@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "../Components/ui/button";
 import { Check, Star, MessageSquare } from "lucide-react";
 import ChatWidget from "./ChatWidget";
 
@@ -193,4 +193,5 @@ export default function PricingSection() {
       />
     </>
   );
+
 }
