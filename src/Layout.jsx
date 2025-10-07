@@ -2,12 +2,12 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Phone, Mail, MessageCircle, Linkedin, Instagram, Facebook, Menu } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../Components/ui/button";
 import {
   Sheet,
   SheetContent,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "../Components/ui/sheet";
 
 export default function Layout({ children }) {
   const [scrolled, setScrolled] = React.useState(false);
@@ -241,4 +241,5 @@ export default function Layout({ children }) {
       </footer>
     </div>
   );
+
 }
