@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "../Components/ui/button";
 import { MessageCircle, Sparkles } from "lucide-react";
 
 export default function FinalCTA() {
@@ -117,4 +117,5 @@ export default function FinalCTA() {
       </div>
     </section>
   );
+
 }
