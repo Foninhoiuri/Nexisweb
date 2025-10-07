@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 export default function HeroSection() {
@@ -124,4 +124,5 @@ export default function HeroSection() {
       </motion.div>
     </section>
   );
+
 }
