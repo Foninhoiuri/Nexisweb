@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Copia package.json e instala dependências
 COPY package*.json ./
-RUN npm install --silent
+RUN npm install
 
 # Copia todo o projeto e gera build
 COPY . .
