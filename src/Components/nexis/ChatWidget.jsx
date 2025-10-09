@@ -1,9 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, Loader2 } from "lucide-react";
-import { Button } from "../Components/ui/button";
-import { Input } from "../Components/ui/input";
-import { ScrollArea } from "../Components/ui/scroll-area";
+// DE:
+// import { Button } from "../Components/ui/button";
+// import { Input } from "../Components/ui/input";
+// import { ScrollArea } from "../Components/ui/scroll-area";
+
+// PARA:
+import { Button, Input, ScrollArea } from "../Components/ui";
 
 export default function ChatWidget({ isOpen, onClose, planName }) {
   const [messages, setMessages] = useState([]);
