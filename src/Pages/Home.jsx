@@ -1,11 +1,11 @@
 import React from "react";
-import HeroSection from "../components/nexis/HeroSection";
-import HowItWorksSection from "../components/nexis/HowItWorksSection";
-import PricingSection from "../components/nexis/PricingSection";
-import TestimonialsSection from "../components/nexis/TestimonialsSection";
-import AboutSection from "../components/nexis/AboutSection";
-import FAQSection from "../components/nexis/FAQSection";
-import FinalCTA from "../components/nexis/FinalCTA";
+import HeroSection from "../Components/nexis/HeroSection";
+import HowItWorksSection from "../Components/nexis/HowItWorksSection";
+import PricingSection from "../Components/nexis/PricingSection";
+import TestimonialsSection from "../Components/nexis/TestimonialsSection";
+import AboutSection from "../Components/nexis/AboutSection";
+import FAQSection from "../Components/nexis/FAQSection";
+import FinalCTA from "../Components/nexis/FinalCTA";
 
 export default function Home() {
   return (
@@ -31,4 +31,5 @@ export default function Home() {
       <FinalCTA />
     </div>
   );
+
 }
