@@ -11,6 +11,6 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "framer-motion": "^10.12.16",
-    "lucide-react": "^0.260.2"
+    "lucide-react": "^0.424.0"
   }
 }
